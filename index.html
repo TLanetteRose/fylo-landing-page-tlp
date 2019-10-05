@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <meta name="author" content="TLanette Pollard">
 
+  <!--Author Styles-->
+  <link rel="stylesheet" href="css/mainstyle.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
@@ -15,16 +17,40 @@
   </style>
 </head>
 <body>
-  Features
-  Team
-  Sign In
+  <header>
+    <div id="logo">
+      <img src="images/logo.svg">
+      <h2>Fylo</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul> 
+    </nav>
+  </header>
+  <!--Begin page's main content-->
+  <main>
+    <!--Company Intro Area-->
+    <section id="intro">
+      <img src="images/illustration-intro.png">
+    </section>
+    <section id="tag_area">
+      <h3 id="tag_line">All your files in one secure location, accessible anywhere.</h3>
+      <p id="tag_summary">Fylo stores all your most important files in one secure location. Access them wherever
+      you need, share and collaborate with friends family, and co-workers.</p>
+      <button type="submit">Get Started</button>
+    </section>
 
-  All your files in one secure location, accessible anywhere.
+  </main>
+  
 
-  Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.
+  
 
-  Get Started
+  
+
+  
 
   Access your files, anywhere
 
@@ -96,7 +122,7 @@
   Terms
   Privacy
 
-  <footer>
+  <footer id="footer">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">T.Lanette Pollard</a>.
