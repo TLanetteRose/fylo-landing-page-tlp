@@ -3,49 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="author" content="TLanette Pollard">
 
+  <!--Author Styles-->
+  <link rel="stylesheet" href="css/mainstyle.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  Features
-  Team
-  Sign In
+  <header>
+    <div id="logo">
+      <img src="images/logo.svg">
+      <h2>Fylo</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#signin">Sign In</a></li>
+      </ul> 
+    </nav>
+  </header>
 
-  All your files in one secure location, accessible anywhere.
+  <!--Begin page's main content-->
+  <main>
+    <!--Company Intro Area-->
+    <section id="intro">
+      <img src="images/illustration-intro.png">
+    </section>
+    <section id="tag_area">
+      <h3 id="tag_line">All your files in one secure location, accessible anywhere.</h3>
+      <p id="tag_summary">Fylo stores all your most important files in one secure location. Access them wherever
+      you need, share and collaborate with friends family, and co-workers.</p>
+      <button type="submit">Get Started</button>
+    </section>
 
-  Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.
+    <!--Features Area-->
+    <section id="features">
+      <div class="feature-card">
+        <img src="images/icon-access-anywhere.svg">
+        <h4>Access your files, anywhere</h4>
+        <p>The ability to use a smartphone, tablet, or computer to access your account means your
+        files follow you everywhere.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/icon-security.svg">
+        <h4>Security you can trust</h4>
+        <p>2-factor authentication and user-controlled encryption are just a couple of the security
+        features we allow to help secure your files.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/icon-collaboration.svg">
+        <h4>Real-time collaboration</h4>
+        <p>Securely share files and folders with friends, family and colleagues for live collaboration.
+        No email attachments required.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/icon-any-file.svg">
+        <h4>Store any type of file</h4>
+        <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
+        file types to be securely stored and shared.</p>
+      </div>
+    </section>
+    <section></section>
+    <section></section>
 
-  Get Started
-
-  Access your files, anywhere
-
-  The ability to use a smartphone, tablet, or computer to access your account means your 
-  files follow you everywhere.
-
-  Security you can trust
-
-  2-factor authentication and user-controlled encryption are just a couple of the security 
-  features we allow to help secure your files.
-
-  Real-time collaboration
-
-  Securely share files and folders with friends, family and colleagues for live collaboration. 
-  No email attachments required.
-
-  Store any type of file
-
-  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-  file types to be securely stored and shared.
-
+  </main>
+  
   Stay productive, wherever you are
 
   Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
@@ -96,10 +122,10 @@
   Terms
   Privacy
 
-  <footer>
+  <footer id="footer">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">T.Lanette Pollard</a>.
     </p>
   </footer>
 </body>
