@@ -12,6 +12,17 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Header Styles */
+header {
+    display: flex;
+    background-color: hsl(217, 28%, 15%);
+}
+
+nav {
+    display: flex;
+    
+}
+
 
 
 
