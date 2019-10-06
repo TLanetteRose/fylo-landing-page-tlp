@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap');
+
 
 * {
     outline: 1px solid black !important;
     box-sizing: border-box;
 }
+
+body {
+    max-width: 1440px;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
 
 
 .attribution { 
