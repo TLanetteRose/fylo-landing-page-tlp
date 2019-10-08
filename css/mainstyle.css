@@ -11,10 +11,12 @@ body {
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    color: white;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
     font-family: 'Raleway', cursive;
+    color: white;
 }
 main{
     background-color: hsl(218, 28%, 13%);
@@ -62,11 +64,11 @@ nav li + li {
 section #intro {
     background-color: hsl(217, 28%, 15%);
     display: flex;
-
+   
 }
 
 #intro_photo {
-    justify-content: center;
+    
 }
 
 
