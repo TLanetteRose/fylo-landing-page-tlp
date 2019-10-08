@@ -13,6 +13,12 @@ body {
     font-size: 14px;
 }
 
+h2, h3, h4 {
+    font-family: 'Raleway', cursive;
+}
+main{
+    background-color: hsl(218, 28%, 13%);
+}
 
 
 /* Header Styles */
@@ -52,11 +58,24 @@ nav li + li {
     margin-right: 30px;
 }
 
+/* Intro Styles */
+section #intro {
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+
+}
+
+#intro_photo {
+    justify-content: center;
+}
 
 
 
 
-
+/* Footer Styles */
+footer {
+    background-color: hsl(216, 53%, 9%);
+}
 
 .attribution { 
     font-size: 11px; text-align: center; 
