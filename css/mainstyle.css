@@ -11,8 +11,16 @@ body {
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    color: white;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Raleway', cursive;
+    color: white;
+}
+main{
+    background-color: hsl(218, 28%, 13%);
+}
 
 
 /* Header Styles */
@@ -52,11 +60,24 @@ nav li + li {
     margin-right: 30px;
 }
 
+/* Hero */
+section #hero {
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+   
+}
+
+#hero_photo {
+    
+}
 
 
 
 
-
+/* Footer Styles */
+footer {
+    background-color: hsl(216, 53%, 9%);
+}
 
 .attribution { 
     font-size: 11px; text-align: center; 
