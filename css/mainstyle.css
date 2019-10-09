@@ -60,14 +60,14 @@ nav li + li {
     margin-right: 30px;
 }
 
-/* Intro Styles */
-section #intro {
+/* Hero */
+section #hero {
     background-color: hsl(217, 28%, 15%);
     display: flex;
    
 }
 
-#intro_photo {
+#hero_photo {
     
 }
 
