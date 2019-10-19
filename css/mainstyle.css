@@ -150,7 +150,10 @@ footer {
     padding: 20px 0;
     color: #fff;
 }
-
+#footer_container {
+    display: flex;
+    justify-content: space-between;
+}
 
 footer p {
     width: 200px;
