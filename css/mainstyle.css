@@ -78,6 +78,7 @@ main {
 #hero_photo {
     display: block;
     padding: 20px;
+    height: auto;
 }
 
 .content1 {
@@ -106,15 +107,20 @@ main {
 
 .content2 {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     height: 500px;
     margin: 40px 0;
+    padding: 1.5%;
+    box-sizing: border-box;
 }
 
 .feature-card {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     flex: 0 1 calc(25% - 1em);
     
     
