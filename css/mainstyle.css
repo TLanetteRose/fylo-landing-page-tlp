@@ -14,6 +14,9 @@ body {
     color: white;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', cursive;
+}
 /* Page Layout */
 .container {
     max-width: 1440px;
@@ -31,10 +34,32 @@ body {
 /* Header */
 .header {
     grid-area: header;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+
 }
+
+header #logo {
+    padding: 0 30px;
+}
+
+#logo img {
+    padding: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 30px;
+}
+nav li a {
+    color: white;
+}
+
 
 
 
@@ -44,6 +69,37 @@ main {
     grid-area: main;
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    max-height: 550px;
+}
+#hero_photo {
+    padding: 20px;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.content1 h1  {
+    width: 600px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content1 p {
+    width: 500px;
+    text-align: center;
+    margin: 10px;
+}
+
+.content button {
+    
+}
 
 
 /* Footer */
