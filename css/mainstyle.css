@@ -122,16 +122,36 @@ main {
     height: 400px;
 }
 
-.testimonial {
+.testimonials {
     display: flex;
     justify-content: space-between;
+    height: 400px;
+}
+
+.testimonials .quotes {
+    height: 10%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
 
 /* Footer */
 
 footer {
     grid-area: footer;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1440px;
     background-color: hsl(216, 53%, 9%);
     padding: 20px 0;
     color: #fff;
+}
+
+
+footer p {
+    width: 200px;
 }
