@@ -76,6 +76,7 @@ main {
     max-height: 550px;
 }
 #hero_photo {
+    display: block;
     padding: 20px;
 }
 
@@ -105,7 +106,6 @@ main {
 
 .content2 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     height: 500px;
@@ -113,7 +113,10 @@ main {
 }
 
 .feature-card {
-    flex: 0 1 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 calc(25% - 1em);
+    
     
 }
 
