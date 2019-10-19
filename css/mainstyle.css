@@ -12,6 +12,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: white;
+    background-color: hsl(218, 28%, 13%);
 }
 
 h1, h2, h3, h4, h5 {
@@ -150,9 +151,15 @@ footer {
     padding: 20px 0;
     color: #fff;
 }
-#footer_container {
+.footer_container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+}
+
+#footer_content {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 footer p {
