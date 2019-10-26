@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: .90rem;
 }
 
 /* Page Layout */
@@ -37,8 +37,8 @@ p {
     padding: 0; /* 60px */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
+    /* grid-column-gap: 10px;
+    grid-row-gap: 15px; */
     grid-template-areas: 
         "header header header header"
         "main main main main"
@@ -48,19 +48,16 @@ p {
 
 /* Header */
 .header {
-    grid-area: header;
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
+    grid-area: header; 
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
+    align-content: stretch;
     align-items: center;
-    max-width: 1440px;
     height: 85px;
 }
 
-
-header #logo {
+.header #logo {
     padding: 0 30px;
 }
 
@@ -78,12 +75,10 @@ nav li a {
 }
 
 
-
-
 /* Main Content Sections */
 
-main {
-    grid-area: main;
+.main_area {
+   grid-area: main;  
 }
 
 .hero {
@@ -112,13 +107,24 @@ main {
 }
 
 .content1 p {
-    width: 500px;
+    width: 450px;
     text-align: center;
     margin: 10px;
 }
 
 .content1 button {
-
+    display: inline;
+    background: hsl(198, 60%, 50%);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    font-size: 12px;
+    width: 230px;
+    height: 45px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
 }
 
 .content2 {
