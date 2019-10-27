@@ -176,7 +176,7 @@ nav li a {
 
 footer {
     grid-area: footer;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
     max-width: 1440px;
     background-color: hsl(216, 53%, 9%);
     padding: 20px 0;
