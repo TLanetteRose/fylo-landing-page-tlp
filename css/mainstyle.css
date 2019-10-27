@@ -73,6 +73,7 @@ a {
 }
 
 /* Header */
+
 .header {
     grid-area: header; 
     padding: 20px 0;
@@ -178,11 +179,13 @@ nav li a {
     height: 400px;
 }
 
-.testimonials {
+section.testimonials {
     display: flex;
     justify-content: space-between;
     height: 400px;
 }
+
+
 
 .testimonials .quotes {
     height: 10%;
