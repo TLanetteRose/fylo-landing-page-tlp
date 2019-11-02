@@ -17,7 +17,54 @@ html, body {
 
 body {
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
+
+
+
+/* Navbar Styling */
+
+.navbar {
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+
+.mobile-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links, 
+.logo {
+    text-decoration: none;
+}
+
+.mobile-nav li {
+    text-align: right;
+    margin: 15px auto;
+    padding-right: 30px;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.active {
+    display: block;
+}
+
 
 
 /* Footer Styles */

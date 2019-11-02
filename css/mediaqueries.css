@@ -1,2 +1,33 @@
 /* Media Queries for Fylo Landing Page */
 
+@media screen and (min-width: 720px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+    .mobile-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .mobile-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+    .logo {
+        margin-top: 0;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+    .logo:hover, 
+    .nav-links:hover {
+        color: white;
+    }
+}
