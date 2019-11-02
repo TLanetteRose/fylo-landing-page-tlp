@@ -1,7 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap');
 
 
+* {
+    outline: 1px solid black;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(218, 28%, 13%);
+}
+
+body {
+    color: white;
+}
+
+
+/* Footer Styles */
 
 .attribution {
       font-size: 11px;

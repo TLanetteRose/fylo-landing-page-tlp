@@ -4,29 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="TLanette Pollard">
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <link rel="stylesheet" href="css/mainstyle.css">
+  <link rel="stylesheet" href="css/mediaqueries.css">
+  
 </head>
 
-<body>
-  Features
-  Team
-  Sign In
+<body class="container">
+  <header>
+    <nav class="navbar">
+      <img class="logo" src="images/logo.svg" alt="Fylo Logo">
+      <ul class="mobile-nav" id="js-menu">
+        <li>
+          <a href="#" class="nav-links">Features</a></li>
+        <li>
+        <a href="#" class="nav-links">Team</a></li>
+        <li>
+          <a href="#" class="nav-links">Sign In</a></li>
+      </ul><!-- .mobile-nav -->
+    </nav><!-- .navbar -->
+  </header>
+  
+  
+  
 
   All your files in one secure location, accessible anywhere.
 
