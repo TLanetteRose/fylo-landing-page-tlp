@@ -29,11 +29,13 @@ body {
     max-width: 719px;
     margin: 0 auto;
     padding: 0 auto;
-
-
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
 }
 
-header
+
 
 
 
