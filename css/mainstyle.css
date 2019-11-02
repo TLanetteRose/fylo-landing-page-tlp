@@ -14,7 +14,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100vh;
-    background-color: hsl(218, 28%, 13%);
+    
 }
 
 body {
@@ -34,9 +34,6 @@ body {
         "main"
         "footer";
 }
-
-
-
 
 
 /* Navbar Styling */
@@ -96,7 +93,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #1c2431;
+    background-color:;
     background-image: url(../images/bg-curvy-mobile.svg),linear-gradient(to bottom, #1c2431 68%, #181f2b 68%);
     background-image: url(../images/bg-curvy-mobile.svg), -webkit-gradient(linear, left top, left bottom, color-stop(68%, #1c2431), color-stop(68%, #181f2b));
     background-position: 0 60%;

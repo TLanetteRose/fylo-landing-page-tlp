@@ -10,6 +10,7 @@ The designs were created to the following widths:
 ## Colors
 
 ### Primary
+- Header-bg: #1c2431;
 
 - Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
 - Dark Blue (main background): hsl(218, 28%, 13%)
