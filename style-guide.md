@@ -10,11 +10,15 @@ The designs were created to the following widths:
 ## Colors
 
 ### Primary
+- Header-bg: #1c2431;
 
 - Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
 - Dark Blue (main background): hsl(218, 28%, 13%)
 - Dark Blue (footer background): hsl(216, 53%, 9%)
 - Dark Blue (testimonials background): hsl(219, 30%, 18%)
+
+-,linear-gradient(to bottom, #1c2431 68%, #181f2b 68%)
+-, -webkit-gradient(linear, left top, left bottom, color-stop(68%, #1c2431), color-stop(68%, #181f2b))
 
 ### Accent
 
