@@ -1,3 +1,5 @@
+/* Mobile First Design */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap');
 
 
@@ -19,6 +21,19 @@ body {
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    max-width: 719px;
+    margin: 0 auto;
+    padding: 0 auto;
+
+
+}
+
+header
 
 
 
@@ -46,12 +61,20 @@ body {
     padding-right: 30px;
 }
 
+.mobile-nav a {
+    color: white;
+}
+
 .logo {
     display: inline-block;
     font-size: 22px;
     margin-top: 10px;
     margin-left: 20px;
 }
+    .logo:hover, 
+    .nav-links:hover {
+        color: rgb(0, 153, 255);
+    }
 
 .navbar-toggle {
     position: absolute;
@@ -65,7 +88,27 @@ body {
     display: block;
 }
 
+/* Header Styles */
 
+.header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1c2431;
+    background-image: url(../images/bg-curvy-mobile.svg),linear-gradient(to bottom, #1c2431 68%, #181f2b 68%);
+    background-image: url(../images/bg-curvy-mobile.svg), -webkit-gradient(linear, left top, left bottom, color-stop(68%, #1c2431), color-stop(68%, #181f2b));
+    background-position: 0 60%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 181.65vw;
+    padding-bottom: 1px;
+    z-index: -1;
+}
+
+header {
+    background-color:;
+}
 
 /* Footer Styles */
 
