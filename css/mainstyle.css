@@ -15,6 +15,10 @@ html, body {
     background-color: hsl(218, 28%, 13%);
 }
 
+body {
+    color: white;
+}
+
 
 /* Footer Styles */
 
