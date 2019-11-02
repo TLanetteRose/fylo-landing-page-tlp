@@ -17,6 +17,9 @@ The designs were created to the following widths:
 - Dark Blue (footer background): hsl(216, 53%, 9%)
 - Dark Blue (testimonials background): hsl(219, 30%, 18%)
 
+-,linear-gradient(to bottom, #1c2431 68%, #181f2b 68%)
+-, -webkit-gradient(linear, left top, left bottom, color-stop(68%, #1c2431), color-stop(68%, #181f2b))
+
 ### Accent
 
 - Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
