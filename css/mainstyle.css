@@ -59,6 +59,9 @@ a {
         "footer";
 }
 
+main {
+    background-color: hsl(218, 28%, 13%);
+}
 
 /* Navbar Styling */
 
@@ -151,11 +154,45 @@ header {
     text-align: center;
 }
 .intro p {
+    color: white;
     width: 70%;
     text-align: center;
 }
 
+/* Features Styling */
+.features {
+    color: white;
+    width: 100vw;
+    display: grid;
+    padding: 6.94vw;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "access" "security" "collab" "any-file" "prod-img" "prod-copy";
+    grid-row-gap: 10vw; 
+}
+
+section.features img {
+    width: 24vw;
+    margin: 0 auto;
+}
+
+section.features .feature1 {
+    grid-area: access;
+}
+
+/* Testimonials Styling */
+.testimonials {
+    background-color: hsl(219, 30%, 18%);
+}
+
 /* Footer Styles */
+
+footer {
+    background-color: hsl(216, 53%, 9%);
+}
 
 .attribution {
       font-size: 11px;
