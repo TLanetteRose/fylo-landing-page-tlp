@@ -59,13 +59,18 @@ a {
         "footer";
 }
 
+main {
+    background-color: hsl(218, 28%, 13%);
+}
 
 /* Navbar Styling */
 
 .navbar {
+    width: 100%;
+    height: 18vw;
     font-size: 14px;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding-bottom: 10px;
+    padding: 0 11px;
 }
 
 .mobile-nav {
@@ -113,12 +118,17 @@ a {
 
 /* Header Styles */
 
+header {
+    width: 100vw;
+    padding-bottom: 1px;
+}
+
 .header-bg {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../images/bg-curvy-mobile.svg);
-    /*background-image: url(../images/bg-curvy-mobile.svg);*/
+    background-color: hsl(217, 28%, 15%);
+    background-image: url(../images/bg-curvy-mobile.svg),linear-gradient(to bottom, #1c2431 68%, #181f2b 68%);
     background-position: 0 60%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -128,11 +138,61 @@ a {
     z-index: -1;
 }
 
-header {
-    background-color:;
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_image {
+    width: 81.333vw;
+    margin: 9vw auto 0 auto;
+}
+.intro h1 {
+    width: 60%;
+    text-align: center;
+}
+.intro p {
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+
+/* Features Styling */
+.features {
+    color: white;
+    width: 100vw;
+    display: grid;
+    padding: 6.94vw;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "access" "security" "collab" "any-file" "prod-img" "prod-copy";
+    grid-row-gap: 10vw; 
+}
+
+section.features img {
+    width: 24vw;
+    margin: 0 auto;
+}
+
+section.features .feature1 {
+    grid-area: access;
+}
+
+/* Testimonials Styling */
+.testimonials {
+    background-color: hsl(219, 30%, 18%);
 }
 
 /* Footer Styles */
+
+footer {
+    background-color: hsl(216, 53%, 9%);
+}
 
 .attribution {
       font-size: 11px;
