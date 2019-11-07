@@ -373,7 +373,6 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Testimonial picture */ 
 .profile .profile-image {
     -ms-grid-row: 1;
     grid-row: 1;
@@ -408,6 +407,27 @@ header {
     display: block;
     margin: 0 auto 4vw auto;
     border: 0;
+}
+
+.sign_in input[type=text] {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vw;
+    padding-left: 6vw;
+    color: #999999;
+    border: none;
+}
+
+.sign_in input[type=text]:focus {
+    border: none;
+    outline: none;
+}
+
+.btn-cyan-blue {
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(176, 68%, 64%);
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%)) 0%, hsl(198, 60%, 50%) 100%;
+    border-radius: 100px;
+
 }
 
 /* Footer Styles */
