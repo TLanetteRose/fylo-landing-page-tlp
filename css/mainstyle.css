@@ -424,8 +424,8 @@ header {
 
 .btn-cyan-blue {
     font-family: 'Open Sans', sans-serif;
-    background-color: hsl(176, 68%, 64%);
-    background-image: linear-gradient(to right, hsl(176, 68%, 64%)) 0%, hsl(198, 60%, 50%) 100%;
+    background-color: #65e2d9;
+    background-image: linear-gradient(to right, #65e2d9 0%, #339ecc 100%;
     border-radius: 100px;
 
 }
