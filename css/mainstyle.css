@@ -384,10 +384,42 @@ header {
     grid-area: en-pic;
 }
 
+/* Sign-in form styling */
+
+.sign_in {
+    width: 94vw;
+    margin-left: 50vw;
+    position: absolute;
+    left: -47vw;
+    text-align: center;
+    padding: 4vw;
+    z-index: 999;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 10px 3px hsl(216, 53%, 9%);
+    box-shadow: 5px 5px 10px 3px hsl(216, 53%, 9%);
+}
+
+.sign_in input[type=submit],
+.sign_in input[type=text]{
+    border-radius: 200px;
+    width: 75vw;
+    height: 13.3vw;
+    display: block;
+    margin: 0 auto 4vw auto;
+    border: 0;
+}
+
 /* Footer Styles */
 
 footer {
+    width: 100vw;
+    height: 250vw;
     background-color: hsl(216, 53%, 9%);
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    padding: 62vw 5.333vw 12.8vw 5.333vw;
+    margin: 32vw auto 0 auto;
 }
 
 .attribution {
