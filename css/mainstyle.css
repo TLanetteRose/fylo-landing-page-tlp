@@ -386,7 +386,7 @@ header {
 /* Sign-in form styling */
 
 .sign_in {
-    width: 94vw;
+    width: 93vw;
     margin-left: 50vw;
     position: absolute;
     left: -47vw;
@@ -403,7 +403,7 @@ header {
 .sign_in input[type=text]{
     border-radius: 200px;
     width: 75vw;
-    height: 13.3vw;
+    height: 13vw;
     display: block;
     margin: 0 auto 4vw auto;
     border: 0;
@@ -413,7 +413,7 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-size: 3vw;
     padding-left: 6vw;
-    color: #999999;
+    color: gray;
     border: none;
 }
 
@@ -423,7 +423,16 @@ header {
 }
 
 .btn-cyan-blue {
-    
+    font-family: 'Open Sans', sans-serif;
+    background-color:  hsl(189, 54%, 54%);
+    border-radius: 100px;
+    color: white;
+    font-size: 4vw;
+    padding: 3.5vw 0;
+    width: 64.5vw;
+    font-weight: 700;
+    text-align: center;
+    display: block;
 }
 
 /* Footer Styles */
