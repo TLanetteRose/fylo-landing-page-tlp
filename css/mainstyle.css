@@ -50,6 +50,15 @@ a {
     color: white;
 }
 
+h2 {
+    font-size: 5.6vw;
+    text-align: center;
+}
+
+h3 {
+    font-size: 5.1vw;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -252,6 +261,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-weight: 400;
 }
 
 .features .feature_two {
@@ -459,6 +469,45 @@ footer {
     font-family: 'Open Sans', sans-serif;
     padding: 62vw 5.333vw 12.8vw 5.333vw;
     margin: 32vw auto 0 auto;
+}
+
+footer .footer_group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    align-items: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: flex-start;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    font-size: 4.3vw;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+footer li {
+    margin-bottom: 5vw;
+}
+
+footer p {
+    padding-left: 10.6vw;
+    text-align: left;
+    color: white;
+    font-size: 4.26vw;
+    background-position: top left;
+    background-repeat: no-repeat;
 }
 
 
