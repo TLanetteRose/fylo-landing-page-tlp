@@ -510,6 +510,43 @@ footer p {
     background-repeat: no-repeat;
 }
 
+footer p.address {
+    background-image: url(../images/icon-location.svg);
+    background-size: 5vw;
+}
+
+footer p.telnumber {
+    background-image: url(../images/icon-phone.svg);
+    background-size: 6vw;
+}
+
+footer p.email {
+    background-image: url(../images/icon-email.svg);
+    background-size: 7.4vw;
+}
+
+footer .footer_nav1 ul,
+footer .footer_nav2 ul{
+    margin-top: 0;
+}
+
+footer .contact,
+footer .footer_nav1,
+footer .footer_nav2 {
+    padding-bottom: 7vw;
+}
+
+footer ion-icon {
+    font-size: 8.53vw;
+}
+
+footer .social {
+    align-self: flex-start;
+    -ms-flex-item-align: start;
+    text-align: left;
+}
+
+footer
 
 /* Attribution */
 
