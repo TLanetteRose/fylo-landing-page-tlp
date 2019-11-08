@@ -19,7 +19,7 @@
 <body class="container">
   <div class="header-bg"></div>
   <header>
-    <nav class="navbar">
+    <nav id="home" class="navbar" aria-label="Home">
       <img class="logo" src="images/logo.svg" alt="Fylo Logo">
       <span class="navbar-toggle" id="js-navbar-toggle">
         <img src="images/favicon-32x32.png" class="icon-button" alt="menu icon">
@@ -30,7 +30,7 @@
         <li>
         <a href="#testimonials" class="nav-links">Team</a></li>
         <li>
-          <a href="#sign_in" class="nav-links">Sign In</a></li>
+          <a href="#sgn_form" class="nav-links">Sign In</a></li>
       </ul><!-- .mobile-nav -->
     </nav><!-- .navbar -->
 
@@ -38,12 +38,12 @@
       <img class="intro_image" src="images/illustration-intro.png" alt="Intro Illustration">
       <h1>All your files in one secure location, accessible anywhere.</h1>
       <p>Fylo stores all your most important files in one secure location. Access them wherever
-      you need, share and collaborate with friends family, and co-workers.</p>
+      you need, share and collaborate with friends, family, and co-workers.</p>
       <a class="btn-cyan-blue" href="#">Get Started</a>
     </div><!-- .intro -->
   </header><!--End Header-->
   <main>
-    <section class="features" aria-label="Features">
+    <section id="features" aria-label="Features">
       <div class="feature_left feature1">
         <img src="images/icon-access-anywhere.svg" alt="Access anywhere icon">
         <h3>Access your files, anywhere</h3>
@@ -82,7 +82,7 @@
       </div><!-- .feature6 -->
     </section><!-- .features -->
 
-    <section class="testimonials" aria-label="Testimonials">
+    <section id="testimonials" aria-label="Testimonials">
       <img src="images/bg-quotes.png" class="quote-mark" alt="Quotation mark icon">
       <div class="testimonial feature7">
         <p class="quote">
@@ -119,15 +119,18 @@
       </div><!-- .feature9 -->
 
     </section><!-- .testimonials -->
-    <section class="sign_in floating">
-      <h2>Get early access today</h2>
-      <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
-      questions, our support team would be happy to help you.</p>
-      <form>
-        <input type="text" name="email" aria-label="Email address" placeholder="Your email address">
-        <input type="submit" class="btn-cyan-blue" value="Get Started For Free" aria-label="Get Started button">
-      </form>
-    </section><!-- .sign_in -->
+
+    <section id="sgn_form" aria-label="Sign In"> 
+      <div class="form">
+        <h2>Get early access today</h2>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+        questions, our support team would be happy to help you.</p>
+        <form>
+          <input type="text" name="email" aria-label="Email address" placeholder="Your email address">
+          <input type="submit" class="btn-cyan-blue" value="Get Started For Free" aria-label="Get Started button">
+        </form>
+      </div><!--.form-->
+    </section><!-- #sgn_form -->
     
   </main>
 
@@ -158,22 +161,25 @@
     </div><!-- .footer4 -->
     <div class="footer_grp social">
       <div id="social_links">
-        <a href="#" class="instagram">
+        <a href="#" class="facebook" target="_blank">
+          <ion-icon name="logo-facebook">Facebook</ion-icon>
+        </a>
+        <a href="#" class="twitter" target="_blank">
+          <ion-icon name="logo-twitter">Twitter</ion-icon>
+        </a>
+        <a href="#" class="instagram" target="_blank">
           <ion-icon name="logo-instagram">Instagram</ion-icon>
-        </a>
-        <a href="#" class="facebook">
-          <ion-icon name="logo-facebook">Instagram</ion-icon>
-        </a>
-        <a href="#" class="twitter">
-          <ion-icon name="logo-twitter">Instagram</ion-icon>
         </a>
       </div><!-- #social_links-->
     </div><!-- .footer5 -->
   </footer>
+  <div class="top">
+    <a href="#home">Back to Top</a>
+  </div>
   <div class="ft-attribution">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">TLanette Pollard</a>.
+      Coded by <a href="https://tlanetterose.github.io/">TLanette Pollard</a>.
     </p>
   </div><!-- .ft-attribution -->
 
