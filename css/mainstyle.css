@@ -19,6 +19,7 @@ html, body {
 
 body {
     background-color: hsl(218, 28%, 13%);
+    font-size: 14px;
 }
 
 img {
@@ -155,14 +156,14 @@ header {
 }
 .intro h1 {
     font-size: 6.4vw;
-    width: 60%;
+    width: 81vw;
     text-align: center;
 }
 .intro p {
     font-size: 4vw;
     font-weight: 400;
     color: white;
-    width: 70%;
+    width: 86vw;
     text-align: center;
 }
 
@@ -173,12 +174,15 @@ header {
     width: 100vw;
     display: grid;
     padding: 6.90vw;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    align-items: baseline;
-    -webkit-box-align: baseline;
-    -ms-flex-align: baseline;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     text-align: center;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -238,6 +242,16 @@ header {
     grid-column: 1;
     -ms-grid-column: 1;
     grid-area: prod-copy;
+}
+
+.feature1 p,
+.feature2 p,
+.feature3 p, 
+.feature4 p {
+    width: 75vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .features .feature_two {
