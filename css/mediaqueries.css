@@ -1,64 +1,121 @@
 /* Media Queries for Fylo Landing Page */
 
-/* Page Content */
+@media (min-width: 720px){
+    .container {
+        max-width: 1440px;
+    }
+    h1 {
+        font-size: 2.5vw;
+    }
+    h2 {
+        font-size: 2vw;
+    }
+    h3 {
+        font-size: 2.2vw;
+    }
+    p {
+        font-size: 1.5vw;
+    }
 
-
-/* Navbar */
-
-@media screen and (min-width: 720px) {
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 0;
-        height: 70px;
-        align-items: center;
-    }
-    .mobile-nav {
-        display: flex;
-        margin-right: 30px;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    .mobile-nav li {
-        margin: 0;
-    }
-    .nav-links {
-        margin-left: 40px;
-    }
-    .logo {
-        margin-top: 0;
-    }
-    .navbar-toggle {
-        display: none;
-    }
-    .logo:hover, 
-    .nav-links:hover {
-        color: rgb(0, 153, 255);
-    }
 }
 
 /* Header */
-@media screen and (min-width: 720px) {
+@media (min-width: 720px){
     .header-bg {
         background-image: url(../images/bg-curvy-desktop.svg),linear-gradient(to bottom, #1c2431 68%, #181f2b 68%);
         background-image: url(../images/bg-curvy-desktop.svg), -webkit-gradient(linear, left top, left bottom, color-stop(68%, #1c2431), color-stop(68%, #181f2b));
         background-position: 0 60%;
-        height: 80.845vw; 
+        height: 80.8vw;
+    }
+    .navbar {
+        height: 12vw;
+        padding: 0 5vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar ul {
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        width: 21vw;
+    }
+    .navbar ul li {
+        font-size: 1.1vw;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+    .intro_image {
+        width: 50vw;
+        margin: 3vw auto 0 auto;
+    }
+    .intro h1 {
+        width: 50vw;
+    }
+    .intro p {
+        width: 40vw;
+    }
+    .intro a {
+        margin: 3vw auto;
+    }
+    .btn-cyan-blue {
+        font-size: 1vw;
+        width: 19vw;
+        padding: 1vw 0;
+    }
+   
+}
+
+/* Features */
+
+@media (min-width: 720px) {
+    #features {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "access security" 
+        "collab any-file" 
+        "prod-img prod-copy" 
+        "prod-img prod-copy";
+    grid-column-gap: 4vw;
+    grid-row-gap: 4vw;  
+    padding: 0;
+    }
+    .feature_left {
+        margin-left: 10vw;
+    }
+    .feature_right {
+        margin-right: 10vw;
+    }
+    #features img {
+        width: 6.9vw;
     }
 }
+
+
+
+
+
+
 
 
 
 /* Footer */
-@media screen and (min-width: 720px) {
+
+@media (min-width: 720px) {
     footer {
         height: 39vw;
-        padding: 13.19vw 8.333vw 8.61vw 8.333vw;
+        padding: 13.2vw 8.3vw 8.6vw 8.3vw;
         margin: 15vw auto 0 auto;
     }
-    footer .footer_group{
+    footer .footer_group {
+        display: flex;
         flex-direction: row;
         align-items: baseline;
         justify-content: center;
     }
+    footer .footer_grp {
+        flex-basis: 365px;
+    }
 }
+
