@@ -156,7 +156,7 @@ header {
     left: 0;
     background-color: hsl(217, 28%, 15%);
     background-image: url(../images/bg-curvy-mobile.svg),linear-gradient(to bottom, #1c2431 68%, #181f2b 68%);
-    background-image: url(../images/bg-curvy-mobile.svg), , -webkit-gradient(linear, left top, left bottom, color-stop(68%, #1c2431), color-stop(68%, #181f2b));
+    background-image: url(../images/bg-curvy-mobile.svg), -webkit-gradient(linear, left top, left bottom, color-stop(68%, #1c2431), color-stop(68%, #181f2b));
     background-position: 0 60%;
     background-repeat: no-repeat;
     background-size: contain;
