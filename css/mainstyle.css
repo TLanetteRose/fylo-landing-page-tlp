@@ -21,6 +21,37 @@ body {
     font-size: 14px;
 }
 
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;;
+}
+
+ul,
+li,
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+/* Page Content */
+
 .container {
     max-width: 720px;
     height: 100vh;
