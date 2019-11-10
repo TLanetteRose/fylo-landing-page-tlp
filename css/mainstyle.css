@@ -44,10 +44,7 @@ header {
 header nav {
     width: 100%;
     height: 19vw;
-    padding: 0 11vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 2vw 8vw;
 }
 
 .header_bg {
@@ -66,7 +63,51 @@ header nav {
     
 }
 
+/* Navbar using flexbox */
+.navbar {
+    font-size: 18px;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding-bottom: 10px;
+}
 
+.main_nav {
+    list-style-type: none;
+    display: none;
+}
 
+.main_nav li {
+    text-align: right;
+    margin: 15px auto;
+   
+}
 
+span .logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
 
+.nav_links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_links a:hover,
+.nav_links a:focus {
+    color: hsl(198, 60%, 50%);
+}
+
+/* Toggle Button */
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    left: 82vw;
+    padding: 2vw 0;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.active {
+    display: block;
+}

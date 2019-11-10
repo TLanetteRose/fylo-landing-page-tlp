@@ -1,9 +1,8 @@
 //Navigation 
-function navFunction() {
-    let mobileNav = document.getElementById("fyloTopnav");
-    if (mobileNav.className === "topnav") {
-        mobileNav.className += " responsive";
-    } else {
-        mobileNav = "topnav";
-    }
-}
+
+let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
+
+navBarToggle.addEventListener('click', function() {
+    mainNav.classList.toggle('active');
+});
