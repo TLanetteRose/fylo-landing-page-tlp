@@ -1,7 +1,8 @@
-/* Toggle Button */
-let mobileNav = document.getElementById('js-menu');
+//Navigation 
+
+let mainNav = document.getElementById('js-menu');
 let navBarToggle = document.getElementById('js-navbar-toggle');
 
-navBarToggle.addEventListener('click', function(){
-    mobileNav.classList.toggle('active');
+navBarToggle.addEventListener('click', function() {
+    mainNav.classList.toggle('active');
 });
