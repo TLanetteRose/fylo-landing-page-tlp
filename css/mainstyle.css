@@ -32,7 +32,8 @@ h3 {
     color: white;
 }
 
-p {
+p,
+span {
     color: white;
 }
 
@@ -63,7 +64,7 @@ a {
         "heading"
         "main"
         "footer";
-    grid-row-gap: 10px;
+    *grid-row-gap: 10px;*
 }
 
 /* Header and Navigation */
@@ -92,6 +93,39 @@ header nav {
     padding-bottom: 1px;
     z-index: -1;
     
+}
+header img.intro,
+header h1, 
+header p  {
+    width: 81vw;
+    margin: 9vw auto 0 auto;
+}
+header h1,
+header p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+header p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header a {
+    margin: 9vw auto;
+}
+.btn-cyan-blue {
+    font-family: "Open Sans", sans-serif;
+    background-color: hsl(189, 54%, 54%);
+    background-image: linear-gradient(to right, hsl(189, 54%, 54%) 0%, hsl(198, 60%, 50%) 100%);
+    border-radius: 100px;
+    color: white;
+    font-size: 4w;
+    padding: 3.5vw 0;
+    width: 65vw;
+    text-align: center;
+    box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.1);
+    display: block;
 }
 
 /* Navbar using flexbox */
@@ -142,3 +176,6 @@ span .logo {
 .active {
     display: block;
 }
+
+/* Features Sections */
+
