@@ -103,6 +103,7 @@ header p  {
 header h1,
 header p {
     text-align: center;
+    line-height: 1.5;
 }
 
 header p {
@@ -176,4 +177,5 @@ span .logo {
     display: block;
 }
 
-/* Intro */
+/* Features Sections */
+
