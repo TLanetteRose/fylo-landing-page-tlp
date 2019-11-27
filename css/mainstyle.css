@@ -64,7 +64,7 @@ a {
         "heading"
         "main"
         "footer";
-    *grid-row-gap: 10px;*
+    grid-row-gap: 10px;
 }
 
 /* Header and Navigation */
@@ -178,4 +178,65 @@ span .logo {
 }
 
 /* Features Sections */
+section.main_features {
+    width: 100%;
+    display: grid;
+    padding: 6.9vw;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "access"
+        "security"
+        "collab"
+        "any-file"
+        "prod-img"
+        "prod-copy";
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+}
 
+section.main_features  img {
+    width: 24vw;
+    margin: 0 auto;
+}
+
+section.main_features .feature1 {
+    grid-row: 1;
+    grid-column: 1;
+    grid-area: access;
+}
+
+section.main_features .feature2 {
+    grid-row: 2;
+    grid-column: 1;
+    grid-area: security;
+}
+
+section.main_features .feature3 {
+    grid-row: 3;
+    grid-column: 1;
+    grid-area: collab;
+}
+
+section.main_features .feature4 {
+    grid-row: 4;
+    grid-column: 1;
+    grid-area: any-file;
+}
+
+section.main_features .feature5 {
+    grid-row: 5;
+    grid-column: 1;
+    grid-area: prod-img;
+}
+
+section.main_features .feature6 {
+    grid-row: 6;
+    grid-column: 1;
+    grid-area: prod-copy;
+    text-align: left;
+}
+section.main_features .feature6 h3 {
+    text-align: center;
+}
