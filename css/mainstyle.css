@@ -235,8 +235,33 @@ section.main_features .feature6 {
     grid-row: 6;
     grid-column: 1;
     grid-area: prod-copy;
+
+}
+
+section.main_features .second-feature {
+    align-self: center;
+    margin: 0;
     text-align: left;
 }
-section.main_features .feature6 h3 {
-    text-align: center;
+
+section.main_features .second-feature h3,section.main_features .second-feature p,
+section.main_features .second-feature a {
+    text-align: left;
 }
+
+section.main_features .second-feature a {
+    text-decoration: underline;
+    color: hsl(189, 54%, 54%);
+    font-size: 4vw;
+    padding-right: 6vw;
+    background-image: url(../images/icon-arrow.svg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+section.main_features .second-feature img {
+    width: 100%;
+}
+
+/* Testimonials */
