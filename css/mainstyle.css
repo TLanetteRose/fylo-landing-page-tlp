@@ -150,7 +150,7 @@ header a {
    
 }
 
-span .logo {
+.logo {
     display: inline-block;
     font-size: 22px;
     margin-top: 10px;
@@ -305,8 +305,8 @@ section.testimonials .quotemark {
 
 .testimonial img {
     width: 6vw;
-    clip-path: circle(50% at 50% 50%);
-    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(3vw at 3vw 3vw);
+    -webkit-clip-path: circle(3vw at 3vw 3vw);
 }
 
 .testimonial p {
