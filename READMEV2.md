@@ -1,2 +1,2 @@
 # Project: Fylo landing page with dark theme and features grid 
-## Background: Landing Page was completed using CSS Grid and Flexbox. 
+## Background: The Fylo Landing Page was completed using CSS Grid and Flexbox. It is a mobile-first design. I've also included a responsive navigation bar using CSS Grid, Flexbox, and JavaScript. 
