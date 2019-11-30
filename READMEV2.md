@@ -7,5 +7,10 @@ The Fylo Landing Page was completed using CSS Grid and Flexbox. It is a mobile-f
 
 The challenge included a style guide with specifications for font-size, colors, font families, and text for the web page. Images were also provided for the mobile and desktop previews. 
 
+## Completed Design
+You can view my version of the landing page: [Fylo Landing Page](https://tlanetterose.github.io/fylo-landing-page-tlp/) 
+
+Designer: T.Lanette Pollard
+
 ## Attribution
 Challenge by [Frontend Mentor](https://www.frontendmentor.io?ref=challenge)
