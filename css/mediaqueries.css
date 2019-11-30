@@ -58,7 +58,7 @@
     .header_bg {
         background-image: url(../images/bg-curvy-desktop.svg), linear-gradient(to bottom, #1c2431 73%, #181f2b 73%);
         background-position: 0 60%;
-        height: 80vw;
+        height: 82vw;
     }
 }
 
@@ -178,7 +178,7 @@
     footer {
         height: 39vw;
         padding: 13vw 8vw 8.5vw 8vw;
-        margin: 15vw auto 0 auto;
+        margin: 20vw auto 0 auto;
     }
     footer .footer_columns {
         flex-direction: row;
@@ -216,4 +216,17 @@
     footer .footer_nav2 {
         padding-bottom: 0;
     }
+    footer ion-icon,
+    .back ion-icon {
+        font-size: 2.2vw;
+    }
+    footer .social {
+        text-align: right;
+    }
+}@media screen and (min-width: 720px){
+    .ft-attribution {
+        display: flex;
+        justify-content: center;
+    }
 }
+
